@@ -102,19 +102,19 @@ export function WelcomeBanner() {
   return (
     <Welcome>
       <div>
-        <h1>Welcome to Pump.Fun Casino</h1>
+        <h1>Welcome to Pixelwall Casino</h1>
         <p>
-          A fair, simple and decentralized casino DAO on Solana.
+          A fair, simple and decentralized casino on Solana.
         </p>
       </div>
       <Buttons>
-        <button onClick={() => window.open('https://t.me/', '_blank')}>
+        <button onClick={() => window.open('https://t.me/+nl9YQsVihZA4ODY8', '_blank')}>
           🚀 Telegram
         </button>
-        <button onClick={() => window.open('https://pump.fun', '_blank')}>
-          👨‍💻 Buy $FPC
+        <button onClick={() => window.open('https://solanapixelwall.xyz', '_blank')}>
+          👨‍💻 Buy $SPD
         </button>
-        <button onClick={() => window.open('https://twitter.com', '_blank')}>
+        <button onClick={() => window.open('https://x.com/SolanaPixelWall', '_blank')}>
           💬 Twitter
         </button>
       </Buttons>
