@@ -37,8 +37,8 @@ function Root() {
               <SendTransactionProvider priorityFee={400_201}>
                 <GambaProvider
                   __experimental_plugins={[
-                    // Custom fee (1%)
-                    // createCustomFeePlugin('<SOLANA ADDRESS>', .01),
+                     Custom fee (3%)
+                     createCustomFeePlugin('EQdhSbVKiDXLct6wvPThnV3h16Y1EmBZ5Cui6cyENdnH', .03),
                   ]}
                 >
                   <GambaPlatformProvider
