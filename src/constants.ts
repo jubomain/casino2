@@ -6,7 +6,7 @@ export const RPC_ENDPOINT = import.meta.env.VITE_RPC_ENDPOINT ?? 'https://api.ma
 
 // Solana address that will receive fees when somebody plays on this platform
 export const PLATFORM_CREATOR_ADDRESS = new PublicKey(
-  'FTmhEqYT7B3KUSG8E7atDxGQCcMjZt99S8WDnncK1oHJ',
+  'EQdhSbVKiDXLct6wvPThnV3h16Y1EmBZ5Cui6cyENdnH',
 )
 
 // Gamba explorer URL - Appears in RecentPlays
@@ -51,8 +51,8 @@ export const DEFAULT_POOL = POOLS[0]
 export const TOKEN_METADATA: (Partial<TokenMeta> & {mint: PublicKey})[] = [
   {
     mint: FAKE_TOKEN_MINT,
-    name: 'Test',
-    symbol: 'TEST',
+    name: 'Demo',
+    symbol: 'DEMO',
     image: '/fakemoney.png',
     baseWager: 1e9,
     decimals: 9,
