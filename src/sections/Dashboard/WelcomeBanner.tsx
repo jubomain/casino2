@@ -112,7 +112,7 @@ export function WelcomeBanner() {
           🚀 Telegram
         </button>
         <button onClick={() => window.open('https://solanapixelwall.xyz', '_blank')}>
-          👨‍💻 Buy $SPD
+          👨‍💻 Buy $PDAO
         </button>
         <button onClick={() => window.open('https://x.com/SolanaPixelWall', '_blank')}>
           💬 Twitter
