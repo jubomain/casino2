@@ -102,9 +102,9 @@ export function WelcomeBanner() {
   return (
     <Welcome>
       <div>
-        <h1>Welcome to Pixelwall Casino</h1>
+        <h1>Welcome to Solana Pixelwall Casino</h1>
         <p>
-          A fair, simple and decentralized casino on Solana.
+          A Fair, Simple and Decentralized Casino on Solana.
         </p>
       </div>
       <Buttons>
